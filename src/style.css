@@ -1,0 +1,57 @@
+/* App Background Adjustments */
+.stApp {
+    background-image: linear-gradient(rgba(2, 2, 2, 0.55), rgba(2, 2, 2, 0.55)),
+                      url('https://images.unsplash.com/photo-1533631273148-264f2ec26448?q=80&w=1331&auto=format&fit=crop&ixlib=rb-4.1.0&ixid=M3wxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8fA%3D%3D');
+    background-size: cover;
+    color: #F8FAFC;
+}
+
+/* Sidebar Theme Adjustment */
+section[data-testid="stSidebar"] {
+    background-image: linear-gradient(rgba(15, 23, 42, 0.15), rgba(15, 23, 42, 0.15)),
+                      url('https://images.unsplash.com/photo-1610632380989-680fe40816c6?q=80&w=687&auto=format&fit=crop&ixlib=rb-4.1.0&ixid=M3wxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8fA%3D%3D');
+    background-size: cover;
+
+}
+section[data-testid="stSidebar"] .stMarkdown,
+section[data-testid="stSidebar"] label {
+    color: #F8FAFC !important;
+}
+
+/* Dynamic Hero Section */
+.hero-section {
+    background-image: linear-gradient(rgba(15, 23, 42, 0.15), rgba(15, 23, 42, 0.15)),
+                      url('https://plus.unsplash.com/premium_photo-1725408081103-609b298e3397?q=80&w=1170&auto=format&fit=crop&ixlib=rb-4.1.0&ixid=M3wxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8fA%3D%3D');
+    background-size: cover;
+    background-position: 30% 60%;
+    background-repeat: no-repeat;
+    padding: 60px 45px;
+    border-radius: 18px;
+    margin-bottom: 25px;
+    border: 1px solid #334155;
+    min-height: 200px;
+    display: flex;
+    flex-direction: column;
+    align-items: flex-end;
+    text-align: right;
+}
+
+.hero-title {
+    color: #F8FAFC;
+    font-size: 38px;
+    font-weight: 800;
+    margin-bottom: 2px;
+    letter-spacing: -0.5px;
+    display: flex;
+    align-items: center;
+    gap: 12px;
+}
+
+.hero-subtitle {
+    color: #F8FAFC;
+    font-size: 15px;
+    font-weight: 400;
+    max-width: 850px;
+    line-height: 0.6;
+    opacity: 1.0;
+}
